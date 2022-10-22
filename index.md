@@ -1,6 +1,5 @@
 ---
 description: Профессиональный ремонт оборудования
-<meta name="yandex-verification" content="1450af240bec5ae5" />
 ---
 
 # Ремонт\_ОВК\_ПМР
