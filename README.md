@@ -1,3 +1,1 @@
-# remont_ovk_pmr
-
-[remont_ovk_pmr](https://alexei0kazachina.github.io/landing_remont_ovk/)
+[remont_ovk_pmr](https://alexei0kazachina.github.io/remont_ovk_pmr/)
