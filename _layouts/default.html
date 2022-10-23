@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <meta name="yandex-verification" content="e18c49ef437018ef" />
+</head>
+<body>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Главная</a></li>
+            <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Контакты</a></li>
+        </ul>
+    </nav>
+    <main class="page-content">
+        {{ content }}
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
