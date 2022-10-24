@@ -24,17 +24,16 @@
  <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+            <p aling="centr"> <img width="200" height="200"
+            alt="Профессиональный ремонт, сервисное обслуживание ОВК&ИО в ПМР."  src="hvac&r.png">
+            </p>
     <nav>
         <ul class="nav-links">
             <li><a href="/" {% if page.title == "Home" %}class="active-page"{% endif %}>Главная</a></li>
             <li><a href="/contact" {% if page.title == "Contact" %}class="active-page"{% endif %}>Контакты</a></li>
         </ul>
     </nav>
-    <main class="page-content">
-        <p aling="centr"> <img width="200" height="200"
-            alt="Профессиональный ремонт, сервисное обслуживание ОВК&ИО в ПМР."  src="hvac&r.png">
-            </p>
-            
+    <main class="page-content">        
         {{ content }}
     </main>
     <footer>
