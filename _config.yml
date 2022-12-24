@@ -1,7 +1,0 @@
-remote_theme: pages-themes/cayman@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: [ОВК_ИО]
-description: [Отопление Вентиляция Кондиционирование_Искусственный Холод]
-# show_downloads: ["true" or "false" (unquoted) to indicate whether to provide a download URL]
-# google_analytics: [Your Google Analytics tracking ID]
