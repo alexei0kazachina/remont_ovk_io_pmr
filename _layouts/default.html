@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" url={{ site.baseurl }} />
+  {%- endif -%}
+  {% include head.html %}
+  </head>
+  <!-- Body -->
+  <body>
+
+    <!-- Header 
+    {%- include header.html %}
+    -->
+    <!-- Content -->
+    {{ content }}
+    
+    <!-- Footer -->
+    {%- include foo.html %}
+  </body>
+
+  </html>
